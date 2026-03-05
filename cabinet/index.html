@@ -1364,10 +1364,10 @@ if (currentUser) {
     }
 
     function downloadClient() {
-        const fileUrl = `https://github.com/dakychan/Aporia/releases/download/0.4/Aporia-0.4.jar`;
+        const fileUrl = `https://github.com/aporia-xyz/Aporia.loader/releases/download/0.1/aporia-loader.exe`;
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = 'loader.png';
+        link.download = 'aporia-loader.exe';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
